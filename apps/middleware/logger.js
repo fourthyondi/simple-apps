@@ -1,4 +1,4 @@
-gitconst moment = require('moment');
+const moment = require('moment');
 
 // Logging
 const logger = (req, res, next) => {
