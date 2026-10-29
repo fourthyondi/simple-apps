@@ -21,7 +21,6 @@ pipeline {
             steps {
                 sh'''
                 cd apps
-                npm test
                 npm run test:coverage
                 '''
             }
